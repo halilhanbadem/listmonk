@@ -4,7 +4,7 @@
       <template #brand>
         <div class="logo">
           <router-link :to="{ name: 'dashboard' }">
-            <img class="full" src="@/assets/logo.svg" alt="" />
+            <img class="full" src="@/assets/logo.png" alt="" />
             <img class="favicon" src="@/assets/favicon.png" alt="" />
           </router-link>
         </div>
