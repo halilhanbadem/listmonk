@@ -19,7 +19,7 @@
 	{{ if ne .FaviconURL "" }}
 		<link rel="icon" href="{{ .FaviconURL }}" type="image/x-icon" />
 	{{ else }}
-		<link rel="icon" href="/public/static/favicon.ico?v={{ .AssetVersion }}" type="image/ico" />
+		<link rel="icon" href="/public/static/favicon.png?v={{ .AssetVersion }}" type="image/png" />
 	{{ end }}
 </head>
 <body>
