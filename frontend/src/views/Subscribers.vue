@@ -84,13 +84,13 @@
           </a>
           <template v-if="bulk.checked.length > 0">
             <a class="a" href="#" @click.prevent="showBulkListForm" data-cy="btn-manage-lists">
-              <b-icon icon="format-list-bulleted-square" size="is-small" /> Manage lists
+              <b-icon icon="format-list-bulleted-square" size="is-small" /> Listeleri yönet
             </a>
             <a class="a" href="#" @click.prevent="deleteSubscribers" data-cy="btn-delete-subscribers">
-              <b-icon icon="trash-can-outline" size="is-small" /> Delete
+              <b-icon icon="trash-can-outline" size="is-small" /> Sil
             </a>
             <a class="a" href="#" @click.prevent="blocklistSubscribers" data-cy="btn-manage-blocklist">
-              <b-icon icon="account-off-outline" size="is-small" /> Blocklist
+              <b-icon icon="account-off-outline" size="is-small" /> Engel Listesi
             </a>
             <span class="a">
               {{ $t('globals.messages.numSelected', { num: numSelectedSubscribers }) }}
